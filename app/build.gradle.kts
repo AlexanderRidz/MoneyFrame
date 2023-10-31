@@ -41,11 +41,8 @@ dependencies {
     implementation(Dependencies.Kotlin.core)
     implementation(Dependencies.Kotlin.coroutines)
 
-    implementation(Dependencies.Androidx.legacySupport)
     implementation(Dependencies.Androidx.appcompat)
     implementation(Dependencies.Androidx.constraint)
-    implementation(Dependencies.Androidx.fragment)
-    implementation(Dependencies.Androidx.recycler)
     implementation(Dependencies.Androidx.lifecycleLivedata)
     implementation(Dependencies.Androidx.lifecycleViewmodel)
     implementation(Dependencies.Androidx.navigationFragment)

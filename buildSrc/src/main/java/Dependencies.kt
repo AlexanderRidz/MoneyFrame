@@ -23,7 +23,7 @@ object Dependencies {
         const val fragment = "androidx.fragment:fragment-ktx:$fragmentVersion"
         const val recycler = "androidx.recyclerview:recyclerview:$recyclerVersion"
         const val lifecycleLivedata = "androidx.lifecycle:lifecycle-livedata-ktx:$lifecycleVersion"
-        const val lifecycleViewmodel = "androidx.lifecycle:lifecycle-viewmodel-ktx$lifecycleVersion"
+        const val lifecycleViewmodel = "androidx.lifecycle:lifecycle-viewmodel-ktx:$lifecycleVersion"
         const val navigationFragment = "androidx.navigation:navigation-fragment-ktx:$navigationVersion"
         const val navigationUi = "androidx.navigation:navigation-ui-ktx:$navigationVersion"
         const val navigationDynamicFeatures = "androidx.navigation:navigation-dynamic-features-fragment:$navigationVersion"
@@ -32,7 +32,7 @@ object Dependencies {
     }
 
     object Material {
-        const val materialVersion = "1.10.0"
+        const val materialVersion = "1.9.0"
 
         const val material = "com.google.android.material:material:$materialVersion"
     }
